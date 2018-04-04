@@ -1,0 +1,43 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Verdana;
+}
+#formulario{
+	border-radius: 5px;
+	padding: 40px 30px;
+	background: url(http://wallpaper-gallery.net/images/backgrounds-black-wallpapers/backgrounds-black-wallpapers-17.jpg) #ffffff no-repeat;
+	z-index: 100;
+	position: absolute;
+}
+	#formulario #busqueda{
+		border-radius: 5px;
+		font-size: 20px;
+		font-family: Verdana;
+		padding:5px;
+	}
+	#formulario #buscar{
+		border-radius: 5px;
+		font-size: 20px;
+		font-family: Verdana;
+		padding:5px;
+	}
+#resultados{
+	border-radius: 5px;
+	padding: 10px;
+	z-index: 100;
+	background-color: white;
+	position: absolute;
+	top: 0;
+	left: 438px;
+}
+
+.hidden{
+	display: none;
+}
+#resultados{
+	background:url(https://1079638729.rsc.cdn77.org/pic/v2/gallery/preview/fon-32335.jpg) #DCDCDC no-repeat;
+}
+		#resultados p{
+			color: white;
+		}
